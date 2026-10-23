@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "digit-classifier-ml-portfolio"
+version = "1.0.0"
+description = "Reproducible handwritten-digit classifier with error analysis and a FastAPI demo"
+requires-python = ">=3.10"
+
+[tool.setuptools.packages.find]
+where = ["src"]
